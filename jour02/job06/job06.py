@@ -15,7 +15,7 @@ cursor.execute(query)
 result = cursor.fetchone()
 
 capacite_totale = result[0]
-print(f"La capacite totale des selles est de {capacite_totale} personnes")
+print(f"La capacite totale des salles est de {capacite_totale} personnes")
 
 cursor.close()
 mydb.close()
